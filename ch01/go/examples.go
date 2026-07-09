@@ -1,0 +1,59 @@
+package ch01
+
+import "fmt"
+
+var groceryList = []string{"apples", "bananas", "cucumbers", "dates", "elderberries"}
+
+func searchForValue(item string) int {
+	counter := 0
+
+	for i, value := range groceryList {
+		counter++
+		if value == item {
+			fmt.Println("Steps: ", counter)
+			return i
+		}
+	}
+
+	fmt.Println("Steps: ", counter)
+	return -1
+}
+
+func insertAtBeginning(item string) {
+	groceryList = append(groceryList, "")
+	counter := 0
+
+	for i := len(groceryList) - 1; i > 0; i-- {
+		counter++
+		groceryList[i] = groceryList[i-1]
+	}
+
+	groceryList[0] = item
+	counter++
+	fmt.Println("Steps: ", counter)
+}
+
+func insertAtEnd(item string) {
+	groceryList = append(groceryList, item)
+
+	fmt.Println("Steps: 1")
+}
+
+func deleteAtBeginning() {
+	counter := 0
+
+	for i := 0; i < len(groceryList)-1; i++ {
+		counter++
+		groceryList[i] = groceryList[i+1]
+	}
+
+	groceryList = groceryList[:len(groceryList)-1]
+	counter++
+	fmt.Println("Steps: ", counter)
+}
+
+func deleteAtEnd() {
+	groceryList = groceryList[:len(groceryList)-1]
+
+	fmt.Println("Steps: 1")
+}

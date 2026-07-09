@@ -40,7 +40,7 @@ go test ./...
 | Chapter | Topic | Python | Go |
 |---------|-------|--------|----|
 | 01 | Why Data Structures Matter | ✅ | ✅ |
-| 02 | Why Algorithms Matter | 🔄 | 🔄 |
+| 02 | Why Algorithms Matter | ✅ | ✅ |
 | 03 | | | |
 | 04 | | | |
 | 05 | | | |

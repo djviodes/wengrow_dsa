@@ -17,7 +17,7 @@
 
             ```
             | "apples" | "bananas" | "cucumbers" | "dates" | "elderberries" |   size = 5
-                index 0      index 1       index 2       index 3     index 4
+              index 0     index 1      index 2     index 3      index 4
             ```
 
 - Many data structures are used in four basic ways, which we refer to as operations:

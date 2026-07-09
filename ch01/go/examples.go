@@ -4,7 +4,7 @@ import "fmt"
 
 var groceryList = []string{"apples", "bananas", "cucumbers", "dates", "elderberries"}
 
-func searchForValue(item string) int {
+func SearchForValue(item string) int {
 	counter := 0
 
 	for i, value := range groceryList {
@@ -19,7 +19,7 @@ func searchForValue(item string) int {
 	return -1
 }
 
-func insertAtBeginning(item string) {
+func InsertAtBeginning(item string) {
 	groceryList = append(groceryList, "")
 	counter := 0
 
@@ -33,13 +33,13 @@ func insertAtBeginning(item string) {
 	fmt.Println("Steps: ", counter)
 }
 
-func insertAtEnd(item string) {
+func InsertAtEnd(item string) {
 	groceryList = append(groceryList, item)
 
 	fmt.Println("Steps: 1")
 }
 
-func deleteAtBeginning() {
+func DeleteAtBeginning() {
 	counter := 0
 
 	for i := 0; i < len(groceryList)-1; i++ {
@@ -52,7 +52,7 @@ func deleteAtBeginning() {
 	fmt.Println("Steps: ", counter)
 }
 
-func deleteAtEnd() {
+func DeleteAtEnd() {
 	groceryList = groceryList[:len(groceryList)-1]
 
 	fmt.Println("Steps: 1")

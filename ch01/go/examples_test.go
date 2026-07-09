@@ -6,30 +6,30 @@ func resetGroceryList() {
 
 func ExampleSearchForValue() {
 	resetGroceryList()
-	searchForValue("elderberries")
+	SearchForValue("elderberries")
 	// Output: Steps:  5
 }
 
 func ExampleInsertAtBeginning() {
 	resetGroceryList()
-	insertAtBeginning("figs")
+	InsertAtBeginning("figs")
 	// Output: Steps:  6
 }
 
 func ExampleInsertAtEnd() {
 	resetGroceryList()
-	insertAtEnd("pomegranates")
+	InsertAtEnd("pomegranates")
 	// Output: Steps: 1
 }
 
 func ExampleDeleteAtBeginning() {
 	resetGroceryList()
-	deleteAtBeginning()
+	DeleteAtBeginning()
 	// Output: Steps:  5
 }
 
 func ExampleDeleteAtEnd() {
 	resetGroceryList()
-	deleteAtEnd()
+	DeleteAtEnd()
 	// Output: Steps: 1
 }

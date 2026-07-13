@@ -42,7 +42,7 @@ go test ./...
 | 01 | Why Data Structures Matter | ✅ | ✅ |
 | 02 | Why Algorithms Matter | ✅ | ✅ |
 | 03 | O Yes! Big O Notation | ✅ | ✅ |
-| 04 | | | |
+| 04 | Speeding Up Your Code With Big O | ✅ | ✅ |
 | 05 | | | |
 | 06 | | | |
 | 07 | | | |

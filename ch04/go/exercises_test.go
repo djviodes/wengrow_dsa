@@ -1,7 +1,13 @@
 package ch04
 
-import "testing"
+func ExampleQuadraticGreatestNumber() {
+	QuadraticGreatestNumber([6]int{3, 1, 6, 8, 2, 9})
+	// Output: Greatest Number:  9
+	// Steps:  36
+}
 
-func TestPlaceholder(t *testing.T) {
-	// remove when first real test is added
+func ExampleLinearGreatestNumber() {
+	LinearGreatestNumber([6]int{3, 1, 6, 8, 2, 9})
+	// Output: Greatest Number:  9
+	// Steps:  6
 }

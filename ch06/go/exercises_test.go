@@ -1,7 +1,19 @@
 package ch06
 
-import "testing"
+func ExampleWorstCaseContainsX() {
+	WorstCaseContainsX("TestX")
+	// Output: Found X:  true
+	// Steps:  5
+}
 
-func TestPlaceholder(t *testing.T) {
-	// remove when first real test is added
+func ExampleBestAndAverageCaseContainsX_best() {
+	BestAndAverageCaseContainsX("XTest")
+	// Output: Found X:  true
+	// Steps:  1
+}
+
+func ExampleBestAndAverageCaseContainsX_average() {
+	BestAndAverageCaseContainsX("TeXst")
+	// Output: Found X:  true
+	// Steps:  3
 }

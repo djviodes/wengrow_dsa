@@ -44,7 +44,7 @@ go test ./...
 | 03 | O Yes! Big O Notation | ✅ | ✅ |
 | 04 | Speeding Up Your Code With Big O | ✅ | ✅ |
 | 05 | Optimizing Code With and Without Big O | ✅ | ✅ |
-| 06 | | | |
+| 06 | Optimizing for Optimistic Scenarios | ✅ | ✅ |
 | 07 | | | |
 | 08 | | | |
 | 09 | | | |

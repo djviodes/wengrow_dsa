@@ -43,7 +43,7 @@ go test ./...
 | 02 | Why Algorithms Matter | ✅ | ✅ |
 | 03 | O Yes! Big O Notation | ✅ | ✅ |
 | 04 | Speeding Up Your Code With Big O | ✅ | ✅ |
-| 05 | | | |
+| 05 | Optimizing Code With and Without Big O | ✅ | ✅ |
 | 06 | | | |
 | 07 | | | |
 | 08 | | | |

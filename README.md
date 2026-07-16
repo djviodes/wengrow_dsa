@@ -45,7 +45,7 @@ go test ./...
 | 04 | Speeding Up Your Code With Big O | ✅ | ✅ |
 | 05 | Optimizing Code With and Without Big O | ✅ | ✅ |
 | 06 | Optimizing for Optimistic Scenarios | ✅ | ✅ |
-| 07 | | | |
+| 07 | Big O in Everyday Code | 🔄 | 🔄 |
 | 08 | | | |
 | 09 | | | |
 | 10 | | | |

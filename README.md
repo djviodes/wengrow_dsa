@@ -46,7 +46,7 @@ go test ./...
 | 05 | Optimizing Code With and Without Big O | ✅ | ✅ |
 | 06 | Optimizing for Optimistic Scenarios | ✅ | ✅ |
 | 07 | Big O in Everyday Code | ✅ | ✅ |
-| 08 | | | |
+| 08 | Blazing Fast Lookup with Hash Tables | ✅ | ✅ |
 | 09 | | | |
 | 10 | | | |
 | 11 | | | |

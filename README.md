@@ -48,7 +48,7 @@ go test ./...
 | 07 | Big O in Everyday Code | ✅ | ✅ |
 | 08 | Blazing Fast Lookup with Hash Tables | ✅ | ✅ |
 | 09 | Crafting Elegant Code with Stacks and Queues | ✅ | ✅ |
-| 10 | | | |
+| 10 | Recursively Recurse with Recursion | ✅ | ✅ |
 | 11 | | | |
 | 12 | | | |
 | 13 | | | |

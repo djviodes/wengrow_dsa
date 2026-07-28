@@ -1,7 +1,43 @@
 package ch10
 
-import "testing"
+func ExampleArrayParser() {
+	array := []any{1, 2, 3, []any{4, 5, 6}, 7,
+		[]any{8, []any{9, 10, 11, []any{12, 13, 14}}},
+		[]any{15, 16, 17, 18, 19,
+			[]any{20, 21, 22, []any{23, 24, 25, []any{26, 27, 29}}, 30, 31},
+			32}, 33}
 
-func TestPlaceholder(t *testing.T) {
-	// remove when first real test is added
+	ArrayParser(array)
+	// Output: 1
+	// 2
+	// 3
+	// 4
+	// 5
+	// 6
+	// 7
+	// 8
+	// 9
+	// 10
+	// 11
+	// 12
+	// 13
+	// 14
+	// 15
+	// 16
+	// 17
+	// 18
+	// 19
+	// 20
+	// 21
+	// 22
+	// 23
+	// 24
+	// 25
+	// 26
+	// 27
+	// 29
+	// 30
+	// 31
+	// 32
+	// 33
 }
